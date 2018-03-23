@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gettin' Giphy with It!</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body background="assets/images/background.jpg">
+    <div class="jumbotron">Let's get Giphy!</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                <div class="card-header"><h5 class="card-title">Click the buttons to see the top 10 gifs of those animals!</h5></div>
+                <div class="card=body" >
+                    <p class="card-text">You can also add a button of your own!</p>
+                    <p class="card-text">Simply type in an animal in the field below, click the add button, then click on the button you just created to see its most popular gifs.</p>
+                    <p class="card-text">All gifs are provided by the Giphy library.</p>
+                    <center><input type="text" class="form-control center" id="animalsCreate" value=""><center><button type="button" class="btn btn-warning" id="addAnimals">Add</button></center></center>
+                    <div id="newButtons"></div>
+                    <div id="animals"></div>
+                    <div id="newAnimals"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+            &copy; Ryan McKenzie 2018
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/javascript.js"></script>
+</html>

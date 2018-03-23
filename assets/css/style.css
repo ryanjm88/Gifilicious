@@ -1,0 +1,38 @@
+.jumbotron  {
+    margin-top: 60px;
+    font-family: Brush Script MT;
+    font-size: 80px;
+    text-align: center;
+}
+
+.animals-button {
+    margin: 10px;
+    float: none;
+}
+
+#addAnimals {
+    margin: 10px;
+    width: 200px;
+}
+
+#animals    {
+    margin: 10px;
+}
+
+#animalsCreate  {
+    width: 95%;
+}
+
+.card-text  {
+    margin-left: 10px;
+}
+
+.card-footer    {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0;
+    width: 100%;
+}
