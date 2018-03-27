@@ -18,7 +18,7 @@ $(document).on('click', '.animals-button', function(event)    {
     event.preventDefault();
     $("#animals").empty();
     var animal = this.innerText;
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&api_key=8PEQC9SGkCD2S1w9r090LKanUQGqpPjj";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&api_key=8PEQC9SGkCD2S1w9r090LKanUQGqpPjj";
 
     $.ajax({
         url: queryURL,
