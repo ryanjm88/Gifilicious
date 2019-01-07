@@ -14,6 +14,8 @@ $("#addAnimals").on("click", function() {
     )
 })
 
+console.log($("#buttonTime").val())
+
 $(document).on('click', '.animals-button', function(event)    {
     event.preventDefault();
     $("#animals").empty();
